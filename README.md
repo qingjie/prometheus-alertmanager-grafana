@@ -82,5 +82,9 @@ rm /tmp/random
 
 ```
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
+docker logs -f grafana
 ```
+http://18.209.112.8:3000
+admin/123123
+
 
