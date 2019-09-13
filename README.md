@@ -1,4 +1,6 @@
-
+```
+sudo netstat -tulpn | grep :9100
+```
 ```
 ssh-add centos-test.pem
 ssh centos@ip
