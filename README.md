@@ -74,3 +74,9 @@ add data in disk
 ```
 dd if=/dev/zero of=/tmp/random
 ```
+
+![](img/2.png)
+```
+rm /tmp/random
+```
+
