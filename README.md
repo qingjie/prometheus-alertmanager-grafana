@@ -80,3 +80,7 @@ dd if=/dev/zero of=/tmp/random
 rm /tmp/random
 ```
 
+```
+docker run -d --name=grafana -p 3000:3000 grafana/grafana
+```
+
