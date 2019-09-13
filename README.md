@@ -87,4 +87,10 @@ docker logs -f grafana
 http://18.209.112.8:3000
 admin/123123
 
+![](img/g1.png)
+
+![](img/g2.png)
+
+![](img/g3.png)
+
 
