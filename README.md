@@ -32,6 +32,7 @@ cd prometheus
 touch prometheus.yml
 ```
 ### this is for prometheus
+![](img/prometheus-ip.png)
 set expandtab in vi
 ```
 [root@ip-172-31-41-120 prometheus]# cat prometheus.yml
@@ -59,8 +60,8 @@ docker logs -f prometheus
 
 ![](img/1.png)
 
-
 ### this is for node
+![](img/node-ip.png)
 ```
 curl -L -o node_exporter.tar.gz https://github.com/prometheus/node_exporter/releases/download/v0.18.1/node_exporter-0.18.1.linux-amd64.tar.gz
 tar -xf node_exporter.tar.gz
