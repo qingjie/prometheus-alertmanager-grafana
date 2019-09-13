@@ -31,4 +31,15 @@ sudo mkdir prometheus
 cd prometheus
 touch prometheus.yml
 ```
+set expandtab in vi
+```
+[root@ip-172-31-41-120 prometheus]# cat prometheus.yml
+global:
+    scrape_interval: 30s
 
+scrape_configs:
+  - job_name: 'node'
+    static_configs:
+     - targets: ['172.31.21.46:9100']
+
+```
