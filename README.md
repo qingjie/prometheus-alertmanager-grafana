@@ -1,1 +1,5 @@
-# prometheus-alertmanager-grafana
+
+```
+ssh-add centos-test.pem
+ssh centos@ip
+```
