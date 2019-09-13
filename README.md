@@ -23,5 +23,12 @@ sudo systemctl start docker
 sudo usermod -a -G docker centos
 docker ps
 ```
-
+```
+docker pull prom/prometheus
+cd /opt
+ls
+sudo mkdir prometheus
+cd prometheus
+touch prometheus.yml
+```
 
