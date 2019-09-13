@@ -48,7 +48,26 @@ scrape_configs:
 ```
 sudo cp /tmp/a prometheus.yml
 ```
-### this is for node
+```
+sudo yum -y install nmap-ncat
+nc -v 172.31.21.46 9100
+docker run -d --name prometheus -p 9090:9090 -v /opt/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml -v /opt/prometheus:/prometheus-data prom/prometheus
+docker ps
+docker logs -f prometheus
+
 ```
 
+### this is for node
+```
+curl -L -o node_exporter.tar.gz https://github.com/prometheus/node_exporter/releases/download/v0.18.1/node_exporter-0.18.1.linux-amd64.tar.gz
+tar -xf node_exporter.tar.gz
+cd node_exporter-0.18.1.linux-amd64/
+sudo cp node_exporter /usr/bin
+sudo yum -y install tmux
+cd node_exporter-0.18.1.linux-amd64/
+
+```
+add data in disk
+```
+dd if=/dev/zero of=/tmp/random
 ```
