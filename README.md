@@ -68,7 +68,6 @@ tar -xf node_exporter.tar.gz
 cd node_exporter-0.18.1.linux-amd64/
 sudo cp node_exporter /usr/bin
 sudo yum -y install tmux
-cd node_exporter-0.18.1.linux-amd64/
 
 ```
 add data in disk
