@@ -31,6 +31,7 @@ sudo mkdir prometheus
 cd prometheus
 touch prometheus.yml
 ```
+this is for prometheus
 set expandtab in vi
 ```
 [root@ip-172-31-41-120 prometheus]# cat prometheus.yml
