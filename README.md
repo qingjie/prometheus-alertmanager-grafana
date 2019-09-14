@@ -96,3 +96,20 @@ admin/123123
 ![](img/g3.png)
 
 
+### set up node_exporter.service 
+```
+1. useradd -M node_exporter
+2. create /etc/systemd/system/node_exporter.service
+3.[centos@ip-172-31-21-46 system]$ cat node_exporter.service
+[Unit]
+Description=Node Exporter
+
+[Service]
+User=node_exporter
+#EnvironmentFile=/etc/sysconfig/node_exporter
+ExecStart=/usr/bin/node_exporter $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
+4. systemctl start node_exporter && systemctl enable node_exporter
+
