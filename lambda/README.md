@@ -1,3 +1,3 @@
-![](img/lambda-screenshot/1.png)
-![](img/lambda-screenshot/2.png)
-![](img/lambda-screenshot/3.png)
+![](lambda-screenshot/1.png)
+![](lambda-screenshot/2.png)
+![](lambda-screenshot/3.png)
