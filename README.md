@@ -133,5 +133,7 @@ WantedBy=multi-user.target
 4. systemctl start node_exporter && systemctl enable node_exporter
 
 ---
-change password of grafana
+
+Change password of grafana
+
 grafana-cli --homepath "/usr/share/grafana" admin reset-admin-password admin
