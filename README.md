@@ -132,3 +132,6 @@ ExecStart=/usr/bin/node_exporter $OPTIONS
 WantedBy=multi-user.target
 4. systemctl start node_exporter && systemctl enable node_exporter
 
+---
+change password of grafana
+grafana-cli --homepath "/usr/share/grafana" admin reset-admin-password admin
